@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Lorem ipsum dolor sit amet",
   "main": "src/server.ts",
+  "repository": "https://github.com/D34THWINGS/b3-nodejs",
   "scripts": {
     "start": "NODE_OPTIONS=\"--experimental-specifier-resolution=node --loader ts-node/esm\" node --watch src/server.ts",
     "start:windows": "ts-node --esm --experimental-specifier-resolution=node src/server.ts",
